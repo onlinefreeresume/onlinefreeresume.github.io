@@ -1,0 +1,56 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+html{
+  background: #000;
+  font-family: sans-serif;
+}
+
+.insta-input{
+  text-align: center;
+}
+.text-input{
+  font-size: 16px;
+}
+.btn{
+  padding: 10px 40px;
+  font-size: 16px;
+  border: 0;
+}
+
+.main-container{
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  /* margin: 300px 0; */
+  padding: 20px;
+  max-width: 400px;
+  margin: 300px auto;
+}
+.logo-con{
+  color: white;
+  display: flex;
+  /* flex-flow: column; */
+  margin-top: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.logo-con > h1{
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.insta-text{
+  color: white;
+  text-align: center;
+  line-height: 25px;
+  letter-spacing: 1px;
+  font-size: 20px;
+}
+.logo{
+  width: 50px;
+}
